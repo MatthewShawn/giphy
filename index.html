@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Animals Animals</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Animal Search</h1>
+
+        <!-- Animal buttons will get dumped here -->
+        <div id="buttons-view"></div>
+
+        <form id="animal-form">
+            <label for="animal-input">Add an ANIMAL!!</label>
+            <input type="text" id="animal-input"><br>
+
+            <!-- Button triggers new animal to be added -->
+            <input id="add-animal" type="submit" value="Add an ANIMAL!">
+            <input id="clear" type="button" value="Clear GIFs">
+        </form>
+
+        <!-- Dumping the GIF contents in here -->
+        <div id="animal-view"></div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="assets/javascript/code.js"></script>
+</body>
+
+</html>
